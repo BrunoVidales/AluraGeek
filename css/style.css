@@ -131,6 +131,11 @@ button {
     }
 }
 
+.main__example {
+    font-family: var(--font-secondary);
+    color: black;
+}
+
 .main__input {
     margin: 3rem 0;
     width: 39rem;
@@ -178,4 +183,32 @@ button {
 .main__button-clear:hover {
     background-color: var(--color-tertiary);
     color: var(--color-primary);
+}
+
+.no-products {
+    color: black;
+}
+
+.footer {
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    
+}
+@media (min-width: 1024px) { 
+    .footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+}
+
+.footer__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    
 }

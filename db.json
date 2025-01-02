@@ -1,0 +1,10 @@
+{
+  "productos": [
+    {
+      "id": "cd16",
+      "nombre": "Game Boy",
+      "precio": 60,
+      "imagen": "img/producto2.png"
+    }
+  ]
+}
